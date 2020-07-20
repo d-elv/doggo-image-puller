@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+#gif-loader {
+    font-size: 30px;
+    font-family: monospace;
+}
+.doggoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.doggo {
+    width: 25%;
+    height: 300px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doggoImage {
+    background: red;
+    height: 100%;
+    width: auto;
+}
